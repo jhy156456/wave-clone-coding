@@ -3,6 +3,7 @@ package com.example.wave_clone_coding;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.LinearLayout;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -28,17 +29,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = findViewById(R.id.toolbar);
+             Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-        drawerLayout = findViewById(R.id.drawer_layout);
+
+//        drawerLayout = findViewById(R.id.drawer_layout);
+//        DragBottomSheetBehaviorLayout dragBottomSheetBehaviorLayout;
+//
+//        dragBottomSheetBehaviorLayout = findViewById(R.id.ll_bottom_sheet);
+//        LinearLayout llBottom = findViewById(R.id.ll_bottom);
+//        dragBottomSheetBehaviorLayout.setChildDragView(llBottom);
+
+
+
+
+
+
 //        NavigationView navigationView = findViewById(R.id.nav_view);
 //        // Passing each menu ID as a set of Ids because each
 //        // menu should be considered as top level destinations.
